@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Terapia - Physical Therapy Website Template</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet"> 
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Topbar Start -->
+        <div class="container-fluid bg-dark px-5 d-none d-lg-block">
+            <div class="row gx-0 align-items-center" style="height: 45px;">
+                <div class="col-lg-8 text-center text-lg-start mb-lg-0">
+                    <div class="d-flex flex-wrap">
+                        <a href="#" class="text-light me-4"><i class="fas fa-map-marker-alt text-primary me-2"></i>Location</a>
+                        <a href="#" class="text-light me-4"><i class="fas fa-phone-alt text-primary me-2"></i>07-66-39-47-84</a>
+                        <a href="#" class="text-light me-0"><i class="fas fa-envelope text-primary me-2"></i>justchicnails@gmail.com</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center text-lg-end">
+                    <div class="d-flex align-items-center justify-content-end">
+                        <a href="#" class="btn btn-light btn-square border rounded-circle nav-fill me-3"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="btn btn-light btn-square border rounded-circle nav-fill me-3"><i class="fab fa-snapchat-ghost"></i></a>
+                        <a href="#" class="btn btn-light btn-square border rounded-circle nav-fill me-3"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Topbar End -->
+
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-fluid position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white px-4 px-lg-5 py-3 py-lg-0">
+                <a href="index.html" class="navbar-brand p-0">
+                    <img class="img-logo" src="img/logo.webp" alt="logo">
+                    <h1 id="espacelogo" class="text-primary m-0"> 
+                        Just’ Chic Nails</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="index.html" class="nav-item nav-link active">Acceuil</a>
+                        <a href="qui-somme-nous.html" class="nav-item nav-link">Qui Somme-nous</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Préstations</a>
+                            <div class="dropdown-menu m-0">
+                                <a href="ongle-gel.html" class="dropdown-item">Pose d’ongles en Gel</a>
+                                <a href="ongle-acrylique.html" class="dropdown-item">Pose d’ongles en Acrylique</a>
+                                <a href="capsule-americaine.html" class="dropdown-item">Pose de capsule Américaine</a>
+                                <a href="baby-boomer.html" class="dropdown-item">Baby-boomer / Ombré Nails</a>
+                                <a href="nails-art.html" class="dropdown-item">Nail art Personnalisé</a>
+                                <a href="french-manucure.html" class="dropdown-item">French manucure revisitée</a>
+                                <a href="manucure-charbon.html" class="dropdown-item">Manucure au charbon actif</a>
+                                <a href="remplissage.html" class="dropdown-item">Remplissage & entretien</a>
+                            </div>
+                        </div>
+                        <a href="blog.html" class="nav-item nav-link">Blog</a>
+                        <a href="tarifs.html" class="nav-item nav-link">Nos Tarifs</a>
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    </div>
+                    <a href="contact.html" class="btn btn-primary rounded-pill text-white py-2 px-4 flex-wrap flex-sm-shrink-0">Prendre Rendez-vous</a>
+                </div>
+            </nav>
+        </div>
+
+            <!-- Carousel Start -->
+            <div class="header-carousel owl-carousel">
+                <div class="header-carousel-item">
+                    <img src="img/image1.webp" class="img-fluid w-100" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="carousel-caption-content p-3">
+                            <h5 class="text-white text-uppercase fw-bold mb-4" style="letter-spacing: 3px;">Just’ Chic Nails</h5>
+                            <h1 class="display-1 text-capitalize text-white mb-4">Sublimez Vos Ongles Avec Élégance</h1>
+                            <p class="mb-5 fs-5">
+                                Offrez à vos ongles une touche de glamour et de sophistication.
+                            </p>
+                            <p class="mb-5 fs-5">
+                                Nail art personnalisé et bien plus ! Faites briller vos mains avec notre expertise.
+                            </p>
+                            <a class="btn btn-primary rounded-pill text-white py-3 px-5" href="/contact.html">Prendre Rendez-vous</a>
+                        </div>
+                    </div>
+                </div>                
+                <div class="header-carousel-item">
+                    <img src="img/image2.png" class="img-fluid w-100" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="carousel-caption-content p-3">
+                            <h5 class="text-white text-uppercase fw-bold mb-4" style="letter-spacing: 3px;">Just’ Chic Nails</h5>
+                            <h1 class="display-1 text-capitalize text-white mb-4">La Beauté Au Bout Des Doigts</h1>
+                            <p class="mb-5 fs-5 animated slideInDown">
+                                Des ongles sublimes, un style unique. Laissez-nous révéler votre élégance.  
+                            </p>
+                            <a class="btn btn-primary rounded-pill text-white py-3 px-5" href="/contact.html">Prendre Rendez-vous</a>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+            <!-- Carousel End -->
+        </div>
+        <!-- Navbar & Hero End -->
+
+
+        <!-- Services Start -->
+        <div class="container-fluid service py-5">
+            <div class="container py-5">
+                <div class="section-title mb-5 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="sub-style">
+                        <h4 class="sub-title px-3 mb-0">Nos Services</h4>
+                    </div>
+                    <h1 class="display-3 mb-4">Des Ongles Sublimés par Nos Experts</h1>
+                    <p class="mb-0">
+                        Chez Just’ Chic Nails, nous vous offrons des prestations de pose d’ongles de haute qualité 
+                        pour un look raffiné et tendance. Que ce soit pour une extension d’ongles en gel ou en 
+                        acrylique, un nail art personnalisé ou encore une french manucure revisitée, nous avons 
+                        le soin parfait pour chaque occasion.
+                    </p>
+                    <br>
+                    <p class="mb-0">
+                        Nos techniciennes qualifiées utilisent des produits de luxe pour garantir des résultats 
+                        impeccables et durables. Faites briller vos mains avec des créations uniques, dans un 
+                        cadre élégant et accueillant. Offrez à vos ongles l’attention qu’ils méritent et 
+                        laissez-les refléter votre style.
+                    </p>
+                </div>                
+                <div class="row g-4 justify-content-center">
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item rounded">
+                            <div class="service-img rounded-top">
+                                <img src="img/onglegel.jpg" class="img-fluid rounded-top w-100" alt="Gel Nail Art"
+                                height="175px"
+                                width="50px">
+                            </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4">Pose d'Ongles en Gel</h5>
+                                    <p class="mb-4">Offrez à vos ongles une extension parfaite et une finition 
+                                        brillante avec notre service de pose d'ongles en gel. Idéal pour une tenue 
+                                        longue durée et un look naturel ou sculpté selon vos envies.</p>
+                                    <a href="/ongle-gel.html" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">En 
+                                        Savoir Plus</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item rounded">
+                            <div class="service-img rounded-top">
+                                <img id="img2" src="img/ongleacrylique.jpg" class="img-fluid rounded-top w-100" alt="Acrylic Nails"
+                                height="175px"
+                                width="50px">
+                            </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4">Pose d'Ongles en Acrylique</h5>
+                                    <p class="mb-4">Offrez à vos ongles une finition lisse et résistante avec notre 
+                                        pose d'ongles en acrylique. Parfait pour un effet naturel ou sculpté, ce 
+                                        service garantit une longue tenue et une durabilité exceptionnelles.</p>
+                                    <a href="/ongle-acrylique.html" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">En 
+                                        Savoir Plus</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>              
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="service-item rounded">
+                            <div class="service-img rounded-top">
+                                <img src="img/capsule.jpg" class="img-fluid rounded-top w-100" alt="Pose de Capsules Américaines"
+                                height="175px"
+                                width="50px">
+                            </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4">Pose de Capsules Américaines</h5>
+                                    <p class="mb-4">Obtenez des ongles longs et élégants en un temps record grâce aux capsules 
+                                        américaines. Cette technique innovante assure une pose rapide, sans limage excessif, pour 
+                                        un rendu naturel, léger et ultra résistant.</p>
+                                    <a href="/capsule-americaine.html" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">En Savoir Plus</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                          
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="service-item rounded">
+                            <div class="service-img rounded-top">
+                                <img src="img/boomer.jpg" class="img-fluid rounded-top w-100" alt="Baby Boomer Ombré Nails"
+                                height="175px"
+                                width="50px">
+                            </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4">Baby Boomer / Ombré Nails</h5>
+                                    <p class="mb-4">Laissez-vous séduire par le dégradé subtil et élégant du Baby 
+                                        Boomer ou de l'Ombré Nails. Ce style chic et raffiné offre un effet dégradé 
+                                        entre deux couleurs pour des ongles parfaits, à la fois naturels et 
+                                        sophistiqués.</p>
+                                    <a href="/baby-boomer.html" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">En 
+                                        Savoir Plus</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>    
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item rounded">
+                            <div class="service-img rounded-top">
+                                <img src="img/nailsart.jpg" class="img-fluid rounded-top w-100" alt="Nail Art Personnalisé"
+                                height="175px"
+                                width="50px">
+                            </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4">Nail Art Personnalisé</h5>
+                                    <p class="mb-4">Exprimez votre personnalité à travers des créations uniques 
+                                        avec notre service de nail art personnalisé. Que ce soit des dessins 
+                                        artistiques, des strass, ou des motifs spéciaux, nous mettons en valeur 
+                                        vos ongles de manière originale et créative.</p>
+                                    <a href="/nails-art.html" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">En 
+                                        Savoir Plus</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                                    
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="service-item rounded">
+                            <div class="service-img rounded-top">
+                                <img src="img/french.jpg" class="img-fluid rounded-top w-100" alt="French Manucure Revisitée"
+                                height="175px"
+                                width="50px">
+                            </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4">French Manucure Revisitée</h5>
+                                    <p class="mb-4">Redécouvrez la French Manucure avec une touche 
+                                        moderne et créative. Que ce soit avec des couleurs audacieuses, des 
+                                        accents métalliques ou des designs personnalisés, cette prestation allie 
+                                        élégance et originalité pour des ongles parfaits.</p>
+                                    <a href="/french-manucure.html" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">En 
+                                        Savoir Plus</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>         
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="service-item rounded">
+                            <div class="service-img rounded-top">
+                                <img src="img/charbon.jpg" class="img-fluid rounded-top w-100" alt="Manucure au Charbon Actif"
+                                height="175px"
+                                width="50px">
+                            </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4">Manucure au Charbon Actif</h5>
+                                    <p class="mb-4">Offrez à vos ongles un soin détoxifiant avec la manucure au charbon actif. 
+                                        Ce soin purifiant élimine les impuretés, renforce les ongles et leur redonne éclat et vitalité 
+                                        pour une beauté naturelle et saine.</p>
+                                    <a href="/manucure-charbon.html" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">En Savoir Plus</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                               
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item rounded">
+                            <div class="service-img rounded-top">
+                                <img src="img/entretien.jpg" class="img-fluid rounded-top w-100" alt="Remplissage et Entretien"
+                                height="175px"
+                                width="50px">
+                            </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4">Remplissage et Entretien</h5>
+                                    <p class="mb-4">Prolongez la beauté de vos ongles avec notre service de 
+                                        remplissage et entretien. Ce soin permet de maintenir vos ongles 
+                                        parfaitement sculptés et d'assurer leur durabilité, tout en redonnant de 
+                                        l'éclat à votre pose existante.</p>
+                                    <a href="/remplissage.html" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">En 
+                                        Savoir Plus</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.2s">
+                        <a class="btn btn-primary rounded-pill text-white py-3 px-5" href="/contact.html">Prendre Rendez-vous</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Services End -->
+
+
+        <!-- About Start -->
+        <div class="container-fluid about bg-light py-5">
+            <div class="container py-5">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-5 wow fadeInLeft" data-wow-delay="0.2s">
+                        <div class="about-img pb-5 ps-5">
+                            <img src="img/img3.jpg" class="img-fluid rounded w-100" style="object-fit: cover;" alt="Image">
+                            <div class="about-img-inner">
+                                <img src="img/vernis.jpg" class="img-fluid rounded-circle w-100 h-100" alt="Image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 wow fadeInRight" data-wow-delay="0.4s">
+                        <div class="section-title text-start mb-5">
+                            <h4 class="sub-title pe-3 mb-0">Qui Sommes-Nous ?</h4>
+                            <h1 class="display-3 mb-4">Notre Expertise au Service de Votre Élégance.</h1>
+                            <p class="mb-4">Chez Just’ Chic Nails, nous sommes passionnés par l’art de la 
+                                manucure et nous mettons un point d'honneur à offrir un service de qualité, 
+                                respectueux et personnalisé à chaque cliente. Grâce à notre équipe diplômée et 
+                                expérimentée, nous vous garantissons des résultats impeccables, qui subliment vos 
+                                ongles tout en prenant soin de votre bien-être.</p>
+                            <div class="mb-4">
+                                <p class="text-secondary"><i class="fa fa-check text-primary me-2"></i> Diplômée en esthétique et certifiée dans les techniques de pose d’ongles.</p>
+                                <p class="text-secondary"><i class="fa fa-check text-primary me-2"></i> Expertise en poses de gel, acrylique, et nail art personnalisé.</p>
+                                <p class="text-secondary"><i class="fa fa-check text-primary me-2"></i> Service chaleureux et attentionné pour un moment de détente absolue.</p>
+                            </div>
+                            <a href="/contact.html" class="btn btn-primary rounded-pill text-white py-3 px-5">Prendre Rendez-vous</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- Feature Start -->
+        <div class="container-fluid feature py-5">
+            <div class="container py-5">
+                <div class="section-title mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="sub-style">
+                        <h4 class="sub-title px-3 mb-0">Pourquoi Choisir Just' Chic Nails ?</h4>
+                    </div>
+                    <h1 class="display-3 mb-4">Offrez à Vos Ongles l'Excellence et le Soin Qu'ils Méritent</h1>
+                    <p class="mb-0">Chez Just' Chic Nails, nous combinons expertise, qualité et attention 
+                        personnelle pour chaque cliente. Grâce à des techniques innovantes et des produits haut 
+                        de gamme, nous créons des résultats exceptionnels qui vous feront briller. Laissez-nous 
+                        prendre soin de vos ongles et de votre bien-être !</p>
+                </div>
+                <div class="row g-4 justify-content-center">
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="row-cols-1 feature-item p-4">
+                            <div class="col-12">
+                                <div class="feature-icon mb-4">
+                                    <div class="p-3 d-inline-flex bg-white rounded">
+                                        <img src="/img/certification.png" alt="certification"
+                                        height="60px"
+                                        width="60px">
+                                    </div>
+                                </div>
+                                <div class="feature-content d-flex flex-column">
+                                    <h5 class="mb-4">Ongliers Diplômés</h5>
+                                    <p class="mb-0">Nos techniciennes sont diplômées et formées aux dernières 
+                                        techniques de pose d’ongles, pour un service à la hauteur de vos attentes.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="row-cols-1 feature-item p-4">
+                            <div class="col-12">
+                                <div class="feature-icon mb-4">
+                                    <div class="p-3 d-inline-flex bg-white rounded">
+                                        <img src="./img/vernis-a-ongles.png" alt="vernis a ongle"
+                                        height="60px"
+                                        width="60px">
+                                    </div>
+                                </div>
+                                <div class="feature-content d-flex flex-column">
+                                    <h5 class="mb-4">Nail Art Personnalisé</h5>
+                                    <p class="mb-0">Exprimez votre style avec nos créations de nail art uniques et 
+                                        personnalisées, adaptées à vos envies et votre personnalité.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="row-cols-1 feature-item p-4">
+                            <div class="col-12">
+                                <div class="feature-icon mb-4">
+                                    <div class="p-3 d-inline-flex bg-white rounded">
+                                        <img src="./img/produits-de-beaute.png" alt="produit de beauté"
+                                        height="60px"
+                                        width="60px">
+                                    </div>
+                                </div>
+                                <div class="feature-content d-flex flex-column">
+                                    <h5 class="mb-4">Soin Précis et Détendu</h5>
+                                    <p class="mb-0">Notre objectif est de vous offrir non seulement des ongles 
+                                        impeccables, mais aussi une expérience agréable et relaxante lors de 
+                                        chaque visite.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="row-cols-1 feature-item p-4">
+                            <div class="col-12">
+                                <div class="feature-icon mb-4">
+                                    <div class="p-3 d-inline-flex bg-white rounded">
+                                        <img src="./img/proprete.png" alt="propreté"
+                                        height="60px"
+                                        width="60px">
+                                    </div>
+                                </div>
+                                <div class="feature-content d-flex flex-column">
+                                    <h5 class="mb-4">Hygiène et Sécurité</h5>
+                                    <p class="mb-0">Votre santé est notre priorité. Nous respectons des normes 
+                                        d'hygiène strictes et désinfectons nos outils après chaque utilisation.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.2s">
+                        <a href="/contact.html" class="btn btn-primary rounded-pill text-white py-3 px-5">Prendre Rendez-vous</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Feature End -->
+
+        <!-- Book Appointment Start -->
+        <div class="container-fluid appointment py-5">
+            <div class="container py-5">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.2">
+                        <div class="section-title text-start">
+                            <h4 class="sub-title pe-3 mb-0">Des Soins Sur-Mesure Pour Vous</h4>
+                            <h1 class="display-4 mb-4">Des Ongles Sublimes, Une Expérience Inoubliable</h1>
+                            <p class="mb-4">Chez Just' Chic Nails, nous croyons que chaque cliente mérite un soin 
+                                personnalisé. Nous allions expertise, douceur et esthétique pour vous offrir des 
+                                services de manucure, nail art et bien-être adaptés à vos envies. Laissez-vous 
+                                tenter par l'une de nos prestations et découvrez un univers où vos ongles sont 
+                                traités avec le plus grand soin.</p>
+                            <div class="row g-4">
+                                <div class="col-sm-6">
+                                    <div class="d-flex flex-column h-100">
+                                        <div class="mb-4">
+                                            <h5 class="mb-3"><i class="fa fa-check text-primary me-2"></i> Ongles 
+                                                Impeccables</h5>
+                                            <p class="mb-0">Nos techniciennes expérimentées s’assurent que chaque 
+                                                détail de vos ongles soit parfait, en utilisant des produits de 
+                                                qualité professionnelle.</p>
+                                        </div>
+                                        <div class="mb-4">
+                                            <h5 class="mb-3"><i class="fa fa-check text-primary me-2"></i> Un 
+                                                Service Personnalisé</h5>
+                                            <p class="mb-0">Nous adaptons chaque service à vos besoins et à vos 
+                                                préférences, du design minimaliste au nail art le plus audacieux, 
+                                                en passant par la manucure traditionnelle.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="video h-100">
+                                        <img src="img/img4.jpg" class="img-fluid rounded w-100 h-100" style="object-fit: cover;" alt="">
+                                        <button type="button" class="btn btn-play" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-bs-target="#videoModal">
+                                            <span></span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.4s">
+                        <div class="appointment-form rounded p-5">
+                            <p class="fs-4 text-uppercase text-primary">Prenez Contact Avec Nous</p>
+                            <h1 class="display-5 mb-4">Réservez Votre Rendez-Vous</h1>
+                            <form action="./contact/send_email.php" method="POST">
+                                <div class="row gy-3 gx-4">
+                                    <div class="col-xl-6">
+                                        <input type="text" class="form-control py-3 border-primary bg-transparent text-white" placeholder="Prénom">
+                                    </div>
+                                    <div class="col-xl-6">
+                                        <input type="email" class="form-control py-3 border-primary bg-transparent text-white" placeholder="Email">
+                                    </div>
+                                    <div class="col-xl-6">
+                                        <input type="phone" class="form-control py-3 border-primary bg-transparent" placeholder="Téléphone">
+                                    </div>
+                                    <div class="col-xl-6">
+                                        <select class="form-select py-3 border-primary bg-transparent" aria-label="Sélectionner le sexe">
+                                            <option selected>Votre sexe</option>
+                                            <option value="2">Femme</option>
+                                            <option value="1">Homme</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-xl-6">
+                                        <input type="date" class="form-control py-3 border-primary bg-transparent">
+                                    </div>
+                                    <div class="col-xl-6">
+                                        <select class="form-select py-3 border-primary bg-transparent" aria-label="Sélectionner un service">
+                                            <option selected>Service Souhaité</option>
+                                            <option value="1">Pose d'ongle gel</option>
+                                            <option value="1">Pose d'ongle Acrylique</option>
+                                            <option value="1">Baby-Bommer / Ombrée nails</option>
+                                            <option value="2">Nail Art personnalisé</option>
+                                            <option value="2">French mannucure</option>
+                                            <option value="3">Remplissage Ongles</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-12">
+                                        <textarea class="form-control border-primary bg-transparent text-white" name="text" id="area-text" cols="30" rows="5" placeholder="Vos commentaires ou demandes spéciales"></textarea>
+                                    </div>
+                                    <div class="col-12">
+                                        <button type="button" class="btn btn-primary text-white w-100 py-3 px-5">RÉSERVER MAINTENANT</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Video -->
+        <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content rounded-0">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Vidéo de Présentation</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fermer"></button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- 16:9 aspect ratio -->
+                        <div class="ratio ratio-16x9">
+                            <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always"
+                                allow="autoplay"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Book Appointment End -->
+
+        <!-- Blog Start -->
+        <div class="container-fluid blog py-5">
+            <div class="container py-5">
+                <div class="section-title mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="sub-style">
+                        <h4 class="sub-title px-3 mb-0">Notre Blog</h4>
+                    </div>
+                    <h1 class="display-3 mb-4">Des Conseils Beauté et Tendances Ongles</h1>
+                    <p class="mb-0">Découvrez nos articles sur les dernières tendances en matière de manucure, 
+                        des astuces pour prendre soin de vos ongles, et bien plus encore pour vous offrir des 
+                        mains sublimes à chaque visite.</p>
+                </div>
+                <div class="row g-4 justify-content-center">
+                    <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="blog-item rounded">
+                            <div class="blog-img">
+                                <img src="img/blog1.jpg" class="img-fluid w-100" alt="Image">
+                            </div>
+                            <div class="blog-centent p-4">
+                                <div class="d-flex justify-content-between mb-4">
+                                    <p class="mb-0 text-muted"><i class="fa fa-calendar-alt text-primary"></i> 01 
+                                        Mars 2025</p>
+                                </div>
+                                <a href="#" class="h4">Les Tendances Manucure 2025 : Ce Qui Est Incontournable</a>
+                                <p class="my-4">Découvrez les tendances manucure les plus populaires pour 2025, des 
+                                    couleurs de vernis aux styles de nail art qui feront fureur cette année.</p>
+                                <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-1">Lire la 
+                                    suite</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="blog-item rounded">
+                            <div class="blog-img">
+                                <img src="img/blog2.jpg" class="img-fluid w-100" alt="Image">
+                            </div>
+                            <div class="blog-centent p-4">
+                                <div class="d-flex justify-content-between mb-4">
+                                    <p class="mb-0 text-muted"><i class="fa fa-calendar-alt text-primary"></i> 05 
+                                        Mars 2025</p>
+                                </div>
+                                <a href="#" class="h4">Comment Prendre Soin de Vos Ongles à Domicile</a>
+                                <p class="my-4">Nos conseils pratiques pour entretenir vos ongles et garantir une 
+                                    manucure parfaite à la maison, tout en préservant la santé de vos mains.</p>
+                                <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-1">Lire la 
+                                    suite</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="blog-item rounded">
+                            <div class="blog-img">
+                                <img src="img/blog3.png" class="img-fluid w-100" alt="Image">
+                            </div>
+                            <div class="blog-centent p-4">
+                                <div class="d-flex justify-content-between mb-4">
+                                    <p class="mb-0 text-muted"><i class="fa fa-calendar-alt text-primary"></i> 10 
+                                        Mars 2025</p>
+                                </div>
+                                <a href="#" class="h4">Les Bienfaits du Manicure Professionnelle : Pourquoi Choisir 
+                                    un Salon</a>
+                                <p class="my-4">Explorer les avantages d'un service de manucure professionnel, des 
+                                    techniques de soin avancées aux produits utilisés pour des résultats durables et éclatants.</p>
+                                <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-1">Lire la 
+                                    suite</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Blog End -->
+
+        <!-- Footer Start -->
+        <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="color-footer footer-item d-flex flex-column">
+                            <h4 class="text-white mb-4"><i class="fas fa-star-of-life me-3"></i> Just' Chic Nails</h4>
+                            <p>Découvrez nos services pour des ongles éclatants et des soins de qualité.</p>
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-share fa-2x text-white me-2"></i>
+                                <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href=""><i class="fab fa-snapchat-ghost"></i></a>
+                                <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="color-footer footer-item d-flex flex-column">
+                            <h4 class="mb-4 text-white">Liens Utiles</h4>
+                            <a href="/politiques/conditions_utilisations.html"><i class="fas fa-angle-right me-2"></i> Conditions d'Utilisation</a>
+                            <a href="/politiques/politiques_de_confidentialites.html"><i class="fas fa-angle-right me-2"></i> Politiques de Confidentialités</a>
+                            <a href="/politiques/politiques_de_securite.html"><i class="fas fa-angle-right me-2"></i> Politique de Sécurité</a>
+                            <a href="/politiques/politiques_de_cookies.html"><i class="fas fa-angle-right me-2"></i> Politiques des Cookies</a>
+                            <a href="/politiques/mentions_legales.html"><i class="fas fa-angle-right me-2"></i> Mentions Légales</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="color-footer footer-item d-flex flex-column">
+                            <h4 class="mb-4 text-white">Nos Services</h4>
+                            <a href="ongle-gel.html" class="dropdown-item">Pose d’ongles en Gel</a>
+                                <a href="ongle-acrylique.html" class="dropdown-item">Pose d’ongles en Acrylique</a>
+                                <a href="capsule-americaine.html" class="dropdown-item">Pose de capsule Américaine</a>
+                                <a href="baby-boomer.html" class="dropdown-item">Baby-boomer / Ombré Nails</a>
+                                <a href="nails-art.html" class="dropdown-item">Nail art Personnalisé</a>
+                                <a href="french-manucure.html" class="dropdown-item">French manucure revisitée</a>
+                                <a href="manucure-charbon.html" class="dropdown-item">Manucure au charbon actif</a>
+                                <a href="remplissage.html" class="dropdown-item">Remplissage & entretien</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="color-footer footer-item d-flex flex-column">
+                            <h4 class="mb-4 text-white">Coordonnées</h4>
+                            <a href=""><i class="fa fa-map-marker-alt me-2"></i> 23 Boulevard du Maréchal Joffre, Belfort, France</a>
+                            <a href=""><i class="fas fa-envelope me-2"></i> contact@justchicnails.com</a>
+                            <a href=""><i class="fas fa-phone me-2"></i>07-66-39-47-84</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Copyright Start -->
+        <div class="container-fluid copyright py-4">
+            <div class="container">
+                <div class="row g-4 align-items-center">
+                    <div class="col-md-6 text-center text-md-start mb-md-0">
+                        <span class="text-white"><a href="#"><i class="fas fa-copyright text-light me-2"></i>Just'Chic Nails</a>, All right reserved.</span>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end text-white">
+                        Designed By <a class="border-bottom" href="https://htmlcodex.com">Digiprogtech</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright End -->
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        
+    </body>
+
+</html>

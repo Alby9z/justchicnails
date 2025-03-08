@@ -1,0 +1,145 @@
+.article {
+    display: flex;
+    height: 450px;
+}
+.section-service {
+    margin: 0px 0px 0px 50px;
+}
+.image-page-gel {
+    margin-top: 35px;
+    height: 340px;
+}
+.contact-presta {
+    margin-bottom: 25px;
+}
+.text-ongle {
+    font-size: 20px;
+    margin: 0px -3px 0px -85px;
+}
+.p-ongle {
+    font-size: 13px;
+    margin: -15px 30px 0px 30px;
+}
+.body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #f8b5d1, #e3a0ff);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title {
+    font-size: 3rem;
+    margin-top: 50px;
+}
+.titles {
+    margin-top: 115px;
+}
+
+.subtitle {
+    font-size: 1.25rem;
+    color: #ccc;
+}
+
+/* Cards Section */
+.card-container {
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    padding: 50px 0;
+}
+
+.card {
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-header {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.card h2 {
+    font-size: 25px;
+    color: #333;
+}
+
+.card-body h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+}
+
+.valid-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.5rem;
+    color: green;
+}
+.colorcard1 {    
+    background: linear-gradient(135deg, #9496ff, #f7b4a3);
+}
+.colorcard2 {
+    background: linear-gradient(135deg, #cb94ff, #def7a3);
+
+}
+.colorcard3 {
+    background: linear-gradient(135deg, #ffdd94, #417acf);
+
+}
+.colorcard4 {
+    background: linear-gradient(135deg, #e8ff94, #f7a3f2);
+
+}
+.colorcard5 {
+    background: linear-gradient(135deg, #72ebaf, #ebee3c);
+
+}
+.colorcard6 {
+    background: linear-gradient(135deg, #94ff94, #f7a3f2);
+
+}
+.colorcard7 {
+    background: linear-gradient(135deg, #ff94c2, #b0a3f7);
+
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .title {
+        font-size: 2.5rem;
+    }
+
+    .card h2 {
+        font-size: 1.75rem;
+    }
+
+    .card-body h3 {
+        font-size: 1.5rem;
+    }
+
+    .card-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
