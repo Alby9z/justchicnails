@@ -528,13 +528,13 @@ h1 {
     left: 0;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    background: rgba(21, 185, 217, .5);
+    background: #d685db;
     transition: 0.5s;
     z-index: 3;
 }
 
 .service .service-item:hover .service-content::before {
-    background: rgba(21, 185, 217, .5);
+    background: rgb(213 116 225 / 50%);
     height: 100%;
 }
 
@@ -1078,7 +1078,7 @@ h1 {
 
 /*** Contact Start ***/
 .contact {
-    background: linear-gradient(rgba(21, 185, 217, 0.9), rgba(21, 185, 217, 0.9)), url(../img/carousel-1.jpg);
+    background: linear-gradient(rgba(165, 137, 161, 0.9), rgb(180 169 181 / 90%)), url(../img/carousel-1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1206,6 +1206,9 @@ h1 {
 
 /*** copyright Start ***/
 .copyright {
-    background: var(--bs-dark) !important;
+    background: #e571c1 !important;
+}
+.copyright-color {
+    color: #000000;
 }
 /*** copyright end ***/
