@@ -50,6 +50,12 @@ h1 {
 .ulcard-prix {
     font-size: 13px;
 }
+.bi-arrow-left{
+    color: white;
+}
+.bi-arrow-right{
+    color: white;
+}
 /*** Button Start ***/
 .btn {
     font-weight: 500;
