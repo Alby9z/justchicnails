@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /admin/
+Disallow: /cgi-bin/
+Allow: /
