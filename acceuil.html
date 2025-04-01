@@ -66,12 +66,8 @@
 
 
         <!-- Navbar & Hero Start -->
-        <select title="multi-language" id="languageSwitcher">
-            <option value="fr">Français</option>
-            <option value="en">English</option>
-            <option value="es">Español</option>
-          </select>
-
+         
+        
         <div class="container-fluid position-relative p-0">
             <nav class="navbar navbar-expand-lg navbar-light bg-white px-4 px-lg-5 py-3 py-lg-0">
                 <a href="acceuil.html" class="navbar-brand p-0">
@@ -83,6 +79,7 @@
                     <span class="fa fa-bars"></span>
                 </button>                
                 <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="gtranslate_wrapper"></div>
                     <div class="navbar-nav ms-auto py-0">
                         <a href="acceuil.html" class="nav-item nav-link active">Acceuil</a>
                         <a href="qui-somme-nous.html" class="nav-item nav-link">Qui Somme-nous</a>
@@ -735,7 +732,8 @@
 
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
-        
+<script>window.gtranslateSettings = {"default_language":"fr","languages":["fr","es","en"],"wrapper_selector":".gtranslate_wrapper","flag_size":24}</script>
+<script src="https://cdn.gtranslate.net/widgets/latest/flags.js" defer></script>
     </body>
 
 </html>
